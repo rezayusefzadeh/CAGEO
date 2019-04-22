@@ -15,7 +15,7 @@ Files included:
 3- FDK.m: Maps Time of Flight to the FDKK.m to calculate the drainage boundary (DBM)
 4- Perm-het-syn.txt: Conatains the heterogenous permeability values included as test data.
 5- FDKK.m: This function estimates the drainage boundary.
-6- functions and shortpaths folders: A connection between C programming language and MATLAB is made using files provided in these folders. This is done to accelerate 
+6- functions and shortpaths folders: A connection between C programming language and Octave or MATLAB is made using files provided in these folders. This is done to accelerate 
    the computations
 
 
