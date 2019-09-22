@@ -14,7 +14,7 @@ Files included:
 4- FDKK.m: This function estimates the drainage boundary.
 5- functions and shortpaths folders: A connection between C programming language and MATLAB is made using files provided in these folders. This is done to accelerate the computations
 6- NPV.m: This function gets the injection well location and passes it to Eclipse.m function and then gets the result to calculate the NPV value.
-7- Eclipse.m: This function gets the well location and writes it to "sched.dat" file and then calls Eclipse software (Line 47). In the end, this function reads the required parameters from ".RSM" file and returns them to NPV.m function to calculate the Net Present Value.
+7- Eclipse.m: This function gets the well location and writes it to "sched.dat" file in the DataFile folder and then calls Eclipse software (Line 47). In the end, this function reads the required parameters from ".RSM" file and returns them to NPV.m function to calculate the Net Present Value.
 
 Note: Number of wells is determined based on the entries as the well locations in the variable x.
 
